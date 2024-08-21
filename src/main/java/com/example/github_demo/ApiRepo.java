@@ -3,9 +3,10 @@ package com.example.github_demo;
 import lombok.Builder;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 @Builder
-public class ApiBranch {
-    private String name;
-    private String lastCommit;
+public class ApiRepo {
+    private List<ApiBranch> branches;
 }
