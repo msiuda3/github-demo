@@ -1,6 +1,7 @@
-package com.example.github_demo;
+package com.example.github_demo.app;
 
 
+import com.example.github_demo.app.response.model.ApiResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

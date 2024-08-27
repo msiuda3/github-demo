@@ -1,13 +1,14 @@
 package com.example.github_demo;
 
-import com.example.github_demo.GithubService;
+import com.example.github_demo.app.GithubService;
+import com.example.github_demo.app.response.model.ApiBranch;
+import com.example.github_demo.app.response.model.ApiRepo;
+import com.example.github_demo.app.response.model.ApiResponse;
 import com.example.github_demo.github.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
 

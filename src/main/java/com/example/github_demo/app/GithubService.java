@@ -1,5 +1,8 @@
-package com.example.github_demo;
+package com.example.github_demo.app;
 
+import com.example.github_demo.app.response.model.ApiResponse;
+import com.example.github_demo.app.response.model.ApiBranch;
+import com.example.github_demo.app.response.model.ApiRepo;
 import com.example.github_demo.github.GithubApiService;
 import com.example.github_demo.github.GithubRepo;
 import lombok.RequiredArgsConstructor;
@@ -8,7 +11,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.ArrayList;

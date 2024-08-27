@@ -1,4 +1,4 @@
-package com.example.github_demo;
+package com.example.github_demo.app.response.model;
 
 import lombok.Builder;
 import lombok.Data;
