@@ -54,3 +54,6 @@ This will run the application on the default port 8080. The endpoint should be a
 ```
 localhost:8080/api/v1/repo/{username}
 ```
+
+# About tests
+The project contains one end-to-end test residing in ApiTest.java that tests the happy path by mocking a github mock server for the app to communicate with.
